@@ -1,6 +1,6 @@
 # SYNC
 <div align="center">
-  <img src="[https://screamium.pythonanywhere.com/static/img1.png](https://sync-mb.vercel.app/assets/logo-dark.png)" alt="Sync Banner" width="700">
+  <img src="https://sync-mb.vercel.app/assets/logo-dark.png" alt="Sync Banner" width="700">
 </div>
 A smart, AI-powered music recommendation system that generates personalized playlists based on your current mood—detected through either facial expressions or text input.
 
