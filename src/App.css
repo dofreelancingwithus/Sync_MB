@@ -1,0 +1,109 @@
+/* App.css */
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.dark-theme {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.light-theme {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.logo-img {
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+.brand-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.navbar .nav-link-custom {
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.mode-toggle {
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.mode-toggle:hover {
+  transform: scale(1.2);
+}
+
+.app-main {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+.content-container {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dark-footer {
+  background-color: #1e1e1e;
+  color: #bbbbbb;
+}
+
+.light-footer {
+  background-color: #f1f1f1;
+  color: #444;
+}
+
+.error-alert {
+  margin: 1rem auto;
+  max-width: 800px;
+}
+
+/* Responsive logo and navbar spacing */
+@media (max-width: 576px) {
+  .brand-text {
+    font-size: 1.2rem;
+  }
+
+  .navbar .nav-link-custom {
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .mode-toggle {
+    font-size: 1rem;
+  }
+}
